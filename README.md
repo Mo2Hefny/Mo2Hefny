@@ -10,10 +10,14 @@
 </p>
 
 <b>Competitive programming</b>
-<p float="left">
-<img height="273em" src="https://leetcard.jacoblin.cool/Moamen_Hefny?theme=light&font=Karma&ext=contest" />
-<img height="280em" src="https://raw.githubusercontent.com/Mo2Hefny/cf-stats/main/output/light_card.svg#gh-dark-mode-only" />
-</p>
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/Moamen_Hefny?theme=light&font=Karma&ext=contest" alt="Wide image"  height="273em">
+</div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Mo2Hefny/cf-stats/main/output/light_card.svg#gh-dark-mode-only" alt="Small image 1"  height="273em">
+  <img src="https://github.r2v.ch/codewars?user=Moamen%20Hefny&name=true&top_languages=true&stroke=%23b362ff" alt="Small image 2"  height="273em">
+</div>
+
 
 ### About Me
 
