@@ -14,8 +14,8 @@
   <img src="https://leetcard.jacoblin.cool/Moamen_Hefny?theme=light&font=Karma&ext=contest" alt="Wide image"  height="273em">
 </div>
 <div float="left">
-  <img src="https://raw.githubusercontent.com/Mo2Hefny/cf-stats/main/output/light_card.svg#gh-dark-mode-only" alt="Small image 1"  height="273em">
-  <img src="https://github.r2v.ch/codewars?user=Moamen%20Hefny&name=true&top_languages=true&stroke=%23b362ff" alt="Small image 2"  height="273em">
+  <img src="https://raw.githubusercontent.com/Mo2Hefny/cf-stats/main/output/light_card.svg#gh-dark-mode-only" alt="Small image 1" width=44% height="273em">
+  <img src="https://github.r2v.ch/codewars?user=Moamen%20Hefny&name=true&top_languages=true&stroke=%23b362ff" alt="Small image 2" width=54% height="273em">
 </div>
 
 
