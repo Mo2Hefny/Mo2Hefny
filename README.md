@@ -24,6 +24,6 @@
 
 ## About Me
 
-- 🌱 I’m currently learning: Python, Competitive programming, and Data structure.
+- 🌱 I’m currently learning: Web development, Competitive programming, and Java.
 - 👯 I’m looking to collaborate on: Anything cool!
 - 📫 How to reach me: moamen.hefny@gmail.com
