@@ -1,0 +1,74 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      # Generate Isometric Commit Calendar
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      
+      # Generate Pinned Repositories
+      - name: Pinned repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.pinned.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 2
+          plugin_repositories_starred: 2
+          plugin_repositories_affiliations: ""
+
+      # Generate Compact Achievements
+      - name: Compact display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+      
+      # Generate Recent Activity
+      - name: Recent activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+      # Generate LeetCode
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+          
