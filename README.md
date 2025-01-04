@@ -11,11 +11,11 @@ Welcome to my GitHub profile! I'm passionate about coding, exploring new technol
 
 ### 🌟 Metrics Dashboard
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Isometric Commit Calendar" style="max-width: 42%; height: auto;"/>
-  <img src="./metrics.plugin.leetcode.svg" alt="LeetCode Insights" style="max-width: 42%; height: auto;"/>
-  <img src="./metrics.plugin.repositories.pinned.svg" alt="Pinned Repositories" style="max-width: 42%; height: auto;"/>
-  <img src="./metrics.plugin.activity.svg" alt="Recent Activity" style="max-width: 42%; height: auto;"/>
-  <img src="./metrics.plugin.achievements.compact.svg" alt="Achievements" style="max-width: 42%; height: auto;"/>
+  <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Isometric Commit Calendar" style="max-width: 37%; height: auto;"/>
+  <img src="./metrics.plugin.leetcode.svg" alt="LeetCode Insights" style="max-width: 37%; height: auto;"/>
+  <img src="./metrics.plugin.repositories.pinned.svg" alt="Pinned Repositories" style="max-width: 37%; height: auto;"/>
+  <img src="./metrics.plugin.activity.svg" alt="Recent Activity" style="max-width: 37%; height: auto;"/>
+  <img src="./metrics.plugin.achievements.compact.svg" alt="Achievements" style="max-width: 37%; height: auto;"/>
 </div>
 
 ---
